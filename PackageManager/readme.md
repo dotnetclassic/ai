@@ -52,7 +52,7 @@ $env:Path = "C:\Users\dotne\.local\bin;$env:Path"
 #### **Permanent PATH Update**
 Run the following command to persist the change:
 ```powershell
-[System.Environment]::SetEnvironmentVariable("Path", $env:Path + ";C:\Users\dotne\.local\bin", [System.EnvironmentVariableTarget]::User)
+$env:Path = "C:\Users\dotne\.local\bin;$env:Path"
 ```
 
 ### 5. Restart PowerShell and Verify Installation
@@ -64,17 +64,7 @@ If it returns the installed version (e.g., `uv 0.5.29`), the setup is complete!
 
 ---
 
-## Alternative Installation via `pipx`
-If PowerShell installation fails, install `uv` via Python:
-```powershell
-pipx install uv
-```
-If `pipx` is not installed:
-```powershell
-python -m pip install pipx
-python -m pipx ensurepath
-pipx install uv
-```
+
 
 ---
 
