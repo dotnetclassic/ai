@@ -12,4 +12,4 @@ Here's a concise overview of various Python package managers, their implementati
 | **PDM** | Python | Focuses on PEP 582 compliance; performance is generally efficient. |
 | **hatch** | Python | Emphasizes environment management; performance is efficient. |
 | **rye** | Rust | Aims for speed and efficiency; still experimental. |
-| **uv** | Rust | UV built in rust and rust is low level language (assembly) near machine language Offers significant performance improvements, with benchmarks showing 10–100x faster speeds compared to pip in various scenarios. |
+| **uv** | Rust | UV developed in rust and (1. rust is low level language assembly near machine language. 2. parallel downloading.) Offers significant performance improvements, with benchmarks showing 10–100x faster speeds compared to pip in various scenarios. |
