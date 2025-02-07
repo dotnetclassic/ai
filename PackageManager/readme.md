@@ -99,6 +99,6 @@ Once `uv` is installed, you can use the following commands:
   uv upgrade
   ```
 - **Other available commands:**
-  ```powershell
-  uv --help
+  ```terminal create virtual envirenment
+  uv run file.py
   ```
