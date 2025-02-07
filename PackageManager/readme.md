@@ -76,3 +76,29 @@ If it returns the installed version (e.g., `uv 0.5.29`), the setup is complete!
 ---
 
 ### ✅ `uv` is now installed and ready to use! 🚀
+
+---
+
+## Command Help
+Once `uv` is installed, you can use the following commands:
+
+- **Show help options:**
+  ```powershell
+  uv help
+  ```
+- **Initialize a new `uv` project:**
+  ```powershell
+  uv init
+  ```
+- **Check installed version:**
+  ```powershell
+  uv --version
+  ```
+- **Upgrade `uv` to the latest version:**
+  ```powershell
+  uv upgrade
+  ```
+- **Other available commands:**
+  ```powershell
+  uv --help
+  ```
