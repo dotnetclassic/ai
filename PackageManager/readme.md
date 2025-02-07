@@ -88,7 +88,7 @@ Once `uv` is installed, you can use the following commands:
   ```
 - **Initialize a new `uv` project:**
   ```powershell
-  uv init
+  uv init [projectname] or existing project [.] or uv init --package [projectname] (for standard create project as package src)
   ```
 - **Check installed version:**
   ```powershell
