@@ -18,7 +18,7 @@ Here's a concise overview of various Python package managers, their implementati
 # Installing `uv` on Windows
 
 ## Prerequisites
-- Windows OS
+- Windows OS (https://docs.astral.sh/uv/getting-started/installation/)
 - PowerShell (Run as Administrator recommended)
 - Python (if using `pipx` alternative method)
 
