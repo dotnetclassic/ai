@@ -52,7 +52,7 @@ $env:Path = "C:\Users\dotne\.local\bin;$env:Path"
 #### **Permanent PATH Update**
 Run the following command to persist the change:
 ```powershell
-$env:Path = "C:\Users\dotne\.local\bin;$env:Path"
+[System.Environment]::SetEnvironmentVariable("Path", $env:Path + ";C:\Users\dotne\.local\bin", [System.EnvironmentVariableTarget]::User)
 ```
 
 ### 5. Restart PowerShell and Verify Installation
