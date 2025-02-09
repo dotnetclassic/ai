@@ -131,8 +131,8 @@ Handles errors gracefully.
 ```python
 try:
     result = 10 / 0
-except ZeroDivisionError:
-    print("Cannot divide by zero!")
+except Exception as e:
+    print(f"An error occurred: {e}")  # Output: An error occurred: division by zero
 ```
 
 ## 11. File Handling
