@@ -10,7 +10,7 @@ Run the following command to create a new project:
 
 ```sh
 uv init projectname
-
+```
 
 projectname/
 ├── hello.py
@@ -21,7 +21,8 @@ projectname/
 
 To run the project in the terminal, use:
 
+```sh
 uv run hello.py
-
+```
 
 
