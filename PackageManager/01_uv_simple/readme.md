@@ -17,7 +17,6 @@ projectname/
 ├── hello.py
 ├── .gitignore
 ├── pyproject.toml
-├── requirements.txt
 └── README.md
 ```
 
