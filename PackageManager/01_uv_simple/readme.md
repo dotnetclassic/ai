@@ -12,12 +12,14 @@ Run the following command to create a new project:
 uv init projectname
 ```
 
+```
 projectname/
 ├── hello.py
 ├── .gitignore
 ├── pyproject.toml
 ├── requirements.txt
 └── README.md
+```
 
 To run the project in the terminal, use:
 
