@@ -17,7 +17,7 @@ API_KEY = "YOUR_GOOGLE_GEMINI_API_KEY"
 genai.configure(api_key=API_KEY)
 
 # Initialize the model
-model = genai.GenerativeModel("gemini-pro")
+model = genai.GenerativeModel("gemini-1.5-flash")
 
 def chat_with_gemini(prompt):
     response = model.generate_content(prompt)
@@ -31,7 +31,7 @@ if __name__ == "__main__":
 ```
 
 ### Features
-✅ Supports **Google Gemini-Pro (1.5)**  
+✅ Supports **Google gemini-1.5-flash**  
 ✅ Can generate text-based responses  
 ✅ Uses Google AI SDK for interaction  
 
