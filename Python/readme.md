@@ -14,7 +14,7 @@ name = "Ali" # String
 is_valid = True  # Boolean
 ```
 
-2. Operators
+## 2. Operators
 Python supports arithmetic, comparison, logical, bitwise, and assignment operators.
 
 ```python
@@ -25,7 +25,7 @@ print(a == b) # Comparison → False
 print(a > 3 and b < 3) # Logical AND → True
 ```
 
-3. Conditional Statements
+## 3. Conditional Statements
 Used for decision-making.
 
 ```python
@@ -38,7 +38,7 @@ else:
     print("Child")
 ```
 
-4. Loops
+## 4. Loops
 Loops help in iteration.
 
 ```python
@@ -53,17 +53,18 @@ while n > 0:
     n -= 1
 ```
 
-```python
-5. Functions
+
+## 5. Functions
 Reusable blocks of code.
 
+```python
 def greet(name):
     return "Hello, " + name
 
 print(greet("Ali"))  # Output: Hello, Ali
 ```
 
-6. Lists (Arrays)
+## 6. Lists (Arrays)
 Ordered, mutable collections.
 
 ```python
@@ -72,7 +73,7 @@ fruits.append("Mango")  # Add item
 print(fruits[0])        # Access first item
 ```
 
-7. Tuples
+## 7. Tuples
 Ordered, immutable collections.
 
 ```python
@@ -80,7 +81,7 @@ colors = ("Red", "Green", "Blue")
 print(colors[1])  # Output: Green
 ```
 
-8. Dictionaries (Key-Value Pairs)
+## 8. Dictionaries (Key-Value Pairs)
 Unordered, mutable collections.
 
 
@@ -124,7 +125,7 @@ person = {"name": "Ali", "age": 25}
 print(person["name"])  # Output: Ali
 ```
 
-10. Exception Handling
+## 10. Exception Handling
 Handles errors gracefully.
 
 ```python
@@ -134,7 +135,7 @@ except ZeroDivisionError:
     print("Cannot divide by zero!")
 ```
 
-11. File Handling
+## 11. File Handling
 Read and write files.
 
 ```python
@@ -148,7 +149,7 @@ with open("test.txt", "r") as f:
     print(content)
 ```
 
-12. Classes and Objects (OOP)
+## 12. Classes and Objects (OOP)
 Encapsulation of data and methods.
 
 ```python
@@ -163,7 +164,7 @@ p = Person("Ali")
 print(p.greet())  # Output: Hello, Ali
 ```
 
-13. Modules and Imports
+## 13. Modules and Imports
 Reuse code from other files.
 
 ```python
@@ -171,7 +172,7 @@ import math
 print(math.sqrt(16))  # Output: 4.0
 ```
 
-14. Web Scraping (BeautifulSoup)
+## 14. Web Scraping (BeautifulSoup)
 Extract data from websites.
 
 ```python
@@ -184,7 +185,7 @@ soup = BeautifulSoup(response.text, "html.parser")
 print(soup.title.text)
 ```
 
-15. NumPy (For Arrays)
+## 15. NumPy (For Arrays)
 Powerful numerical computations.
 
 ```python
